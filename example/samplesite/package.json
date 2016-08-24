@@ -1,0 +1,14 @@
+{
+  "name": "SampleSite",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A sample express site with jsdoc versioned swagger.",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "swagger-express-mw": "^0.6.0"
+  }
+}

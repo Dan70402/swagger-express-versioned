@@ -1,0 +1,26 @@
+{
+  "name": "swagger-express-versioned",
+  "version": "0.0.1",
+  "private": true,
+  "description": "VSemver api's from JsDoc and dynamic swagger",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "index.js",
+  "dependencies": {
+    "semver" : "5.3.0",
+    "swagger-jsdoc" : "git+ssh://git@devcenter.team.corp.mc2cs.com:7999/ut/swagger-jsdoc.git",
+    "json2yaml" : "1.1.0",
+    "swagger-express-mw" : "^0.6.0"
+  },
+  "devDependencies": {
+    "mocha": "2.5.3",
+    "rewire": "2.5.1 ",
+    "sinon": "1.17.4",
+    "istanbul": "0.4.4"
+  },
+  "scripts" : {
+    "test": "mocha --reporter spec test",
+    "coverage": "istanbul cover _mocha"
+  }
+}
